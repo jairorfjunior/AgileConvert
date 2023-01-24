@@ -5,6 +5,8 @@ VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CandidateTesting.JairoJunior.Convert", "CandidateTesting.JairoJunior.Convert\CandidateTesting.JairoJunior.Convert.csproj", "{667BFA99-75E1-4C06-9CCA-7AB1A953C0EE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CandidateTesting.JairoJunior.TestProject", "CandidateTesting.JairoJunior.TestProject\CandidateTesting.JairoJunior.TestProject.csproj", "{63270FF3-88A3-4397-820A-30DAC2DED0BF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{667BFA99-75E1-4C06-9CCA-7AB1A953C0EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{667BFA99-75E1-4C06-9CCA-7AB1A953C0EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{667BFA99-75E1-4C06-9CCA-7AB1A953C0EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63270FF3-88A3-4397-820A-30DAC2DED0BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63270FF3-88A3-4397-820A-30DAC2DED0BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63270FF3-88A3-4397-820A-30DAC2DED0BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63270FF3-88A3-4397-820A-30DAC2DED0BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

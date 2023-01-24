@@ -8,9 +8,8 @@ using System.Threading.Tasks;
 namespace CandidateTesting.JairoJunior.Convert.Services
 {
     public class LogProgramBase : ILogProgramBase
-    {
-
-        public async Task<HttpClient> ConvertToAgora(string origem, string destino)
+    { 
+        public async Task<HttpResponseMessage> ConvertToAgora(string origem, string destino)
         {
             Log log = new Log();
 
@@ -63,7 +62,7 @@ namespace CandidateTesting.JairoJunior.Convert.Services
 
             }
 
-            return client;
+            return result;
         }
 
         public void CriarFileLog(Log log, string destino)
